@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Match Game</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- start the game -->
+    <div class="control">
+        <span>Start Game</span>
+    </div>
+
+    <!-- Start the header -->
+    <div class="head">
+        <div class="name">Hello: <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries: <span>0</span>
+        </div>
+    </div>
+
+    <!-- Start the memory block -->
+    <div class="container">
+
+        <div class="game-block" data-tech="board-game-1">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/board-game (1).png" alt="" decoding="async">
+            </div>
+        </div>
+        <div class="game-block" data-tech="board-game-1">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/board-game (1).png" alt="" decoding="async">
+            </div>
+        </div>
+
+        <div class="game-block" data-tech="board-game-4">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/board-game (4).png" alt="" decoding="async">
+            </div>
+        </div>
+        <div class="game-block" data-tech="board-game-4">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/board-game (4).png" alt="" decoding="async">
+            </div>
+        </div>
+
+        <div class="game-block" data-tech="board-game-5">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/board-game (5).png" alt="" decoding="async">
+            </div>
+        </div>
+        <div class="game-block" data-tech="board-game-5">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/board-game (5).png" alt="" decoding="async">
+            </div>
+        </div>
+
+        <div class="game-block" data-tech="board-game">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/board-game.png" alt="" decoding="async">
+            </div>
+        </div>
+        <div class="game-block" data-tech="board-game">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/board-game.png" alt="" decoding="async">
+            </div>
+        </div>
+
+        <div class="game-block" data-tech="card-games">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/card-games.png" alt="" decoding="async">
+            </div>
+        </div>
+        <div class="game-block" data-tech="card-games">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/card-games.png" alt="" decoding="async">
+            </div>
+        </div>
+
+        <div class="game-block" data-tech="catan">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/catan.png" alt="" decoding="async">
+            </div>
+        </div>
+        <div class="game-block" data-tech="catan">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/catan.png" alt="" decoding="async">
+            </div>
+        </div>
+
+        <div class="game-block" data-tech="chess">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/chess.png" alt="" decoding="async">
+            </div>
+        </div>
+        <div class="game-block" data-tech="chess">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/chess.png" alt="" decoding="async">
+            </div>
+        </div>
+
+        <div class="game-block" data-tech="table-games">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/table-games.png" alt="" decoding="async">
+            </div>
+        </div>
+        <div class="game-block" data-tech="table-games">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/table-games.png" alt="" decoding="async">
+            </div>
+        </div>
+
+        <div class="game-block" data-tech="shogi">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/shogi.png" alt="" decoding="async">
+            </div>
+        </div>
+        <div class="game-block" data-tech="shogi">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/shogi.png" alt="" decoding="async">
+            </div>
+        </div>
+
+        <div class="game-block" data-tech="role-playing-game">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/role-playing-game.png" alt="" decoding="async">
+            </div>
+        </div>
+        <div class="game-block" data-tech="role-playing-game">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/role-playing-game.png" alt="" decoding="async">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- add the audio -->
+    <audio src="audio/wow.mp3" preload="auto" id="good"></audio>
+    <audio src="audio/wrong-47985.mp3" preload="auto" id="bad"></audio>
+    <audio src="audio/level-up-4-243762.mp3" preload="auto" id="win"></audio>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
